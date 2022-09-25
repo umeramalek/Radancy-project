@@ -1,8 +1,72 @@
-.headerLogo {
-  position: absolute;
-  left: 20px;
-  top: 0;
+body {
+  color: #526066;
 }
 
-.headerImg {
+h2,
+h3 {
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+.l-content {
+  margin: 0 auto;
+}
+
+.l-box {
+  padding: 0.5em 2em;
+}
+
+.banner {
+  background: transparent
+    url("https://i0.wp.com/www.moneysmylife.com/wp-content/uploads/2016/05/Citizens-Bank.jpeg?fit=750%2C420&ssl=1")
+    0 0 no-repeat fixed;
+
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 3em;
+  display: table;
+}
+
+.introTitle {
+  text-align: center;
+  color: green;
+}
+hr {
+  width: 10%;
+  border-top: 5px solid green;
+  margin-left: auto;
+  margin-right: auto;
+}
+.introText {
+  color: grey;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.careersBtn {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+@media (min-width: 480px) {
+  .banner {
+    height: 400px;
+  }
 }
